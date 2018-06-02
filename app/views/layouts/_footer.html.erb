@@ -1,9 +1,10 @@
 <div class="container">
-	<footer>Copyright 2012 - <%= Date.today() %>
-	<ul>
-		<li><%= link_to "Home", index_path %></li>
-		<li><%= link_to "About", about_path %></li>
-		<li><%= link_to "Contact", contact_path %></li>
-  </ul>
-</footer>
+	<footer>
+		<%= image_tag('rails.png', alt: "Rails logo image") %> Copyright 2012 - <%= Date.today() %>
+		<ul>
+			<li><%= link_to "Home", index_path %></li>
+			<li><%= link_to "About", about_path %></li>
+			<li><%= link_to "Contact", contact_path %></li>
+	    </ul>
+    </footer>
 </div>
